@@ -1,0 +1,90 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/e37e15f2-3efa-4a76-9146-5930bf3bdd9d/dbj26yv-ae944c97-335c-4aa9-ab77-5b6ee18df064.jpg);
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: baseline;
+  margin-top: 10%;
+}
+
+h1 {
+  color: #fafafa;
+}
+/* Form Input & Button */
+
+form button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+}
+
+form input {
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: none;
+  border-style: solid;
+  border-color: #fafafa;
+  border-width: 3px;
+}
+
+form input::placeholder {
+  font-family: 'Poppins', sans-serif;
+}
+
+.focusForm:focus {
+  border: 3px solid #b0b0b0;
+  outline: none;
+}
+
+/* Weather Results */
+
+.results {
+  display: none;
+}
+
+.results button {
+  margin-left: 70px;
+}
+
+.inner-results {
+  border-width: 3px;
+  border-color: #fafafa;
+  border-style: solid;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: 70px;
+  padding: 30px;
+  color: #fafafa;
+}
+
+/* Search Again Button */
+
+.searchAgainButton {
+  background: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #fafafa;
+  color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+}
+
+.left-side {
+  margin-left: 30px;
+}
